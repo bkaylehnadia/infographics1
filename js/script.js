@@ -5,7 +5,7 @@
         window.parent.postMessage("complete", '*');
     }
     window.onload = function() {
-        let tl = gsap.timeline({onComplete: startNextMotionGraphic()});
+        let tl = gsap.timeline();
         let tl2 = gsap.timeline();
         let tl3 = gsap.timeline();
 
