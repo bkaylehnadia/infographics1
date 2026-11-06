@@ -153,4 +153,13 @@
        x:900,
         delay: 1.4
     })
+        // Loop the entire infographic
+const master = gsap.timeline({
+    repeat: -1,
+    repeatDelay: 2
+});
+
+master.add(tl, 0);
+master.add(tl2, 0);
+master.add(tl3, 0);
     }
